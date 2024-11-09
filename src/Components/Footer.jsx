@@ -99,11 +99,11 @@ function Footer(){
             	
             </div>
 
-            <div className="copyright h-14 w-full bg-[#383838] flex justify-center text-white align-center items-center">
+            <i className="copyright h-14 w-full bg-[#383838] flex justify-center text-white align-center items-center">
                 © Copyright 2024 
                 The Erudite World School. All Rights Reserved.
 
-            </div>
+            </i>
         </>
     )
 }

@@ -43,7 +43,7 @@ function Navbar() {
 
 
                 {/* Navbar Content */}
-                <div className={`fixed p-5 flex items-center w-full transition-all duration-300 ${isScrolled ? 'bg-white' : ''} z-10`}>
+                <div className={`fixed p-5 flex items-center w-full transition-all duration-300 ${isScrolled ? 'bg-[#F6F6F6]' : ''} z-10`}>
                     <div className="left mr-auto">
                         <img src={logo} alt="logo" className={`transition-all duration-300 ${isScrolled ? 'h-14 w-auto' : 'h-32 w-auto'}`} />
                     </div>
@@ -108,3 +108,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
