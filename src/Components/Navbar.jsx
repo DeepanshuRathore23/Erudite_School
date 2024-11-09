@@ -54,11 +54,11 @@ function Navbar() {
                     <div className={`center flex space-x-6 ${isScrolled ? 'text-black' : 'text-white'}`}>
                         <NavLink to="/Erudite_School/" className="hover:text-[#d59f0f] transition-colors duration-300">Home</NavLink>
                         <NavLink to="/Erudite_School/about" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">About Us</NavLink>
-                        <NavLink to="/" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Admissions</NavLink>
-                        <NavLink to="/" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Academics</NavLink>
-                        <NavLink to="/" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Student Life</NavLink>
-                        <NavLink to="/" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Athletics</NavLink>
-                        <NavLink to="/" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Contact</NavLink>
+                        <NavLink to="/Erudite_School/admissions" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Admissions</NavLink>
+                        <NavLink to="/Erudite_School/academics" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Academics</NavLink>
+                        <NavLink to="/Erudite_School/studentLife" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Student Life</NavLink>
+                        <NavLink to="/Erudite_School/athletics" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Athletics</NavLink>
+                        <NavLink to="/Erudite_School/contact" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Contact</NavLink>
                     </div>
 
                     <div className="right ml-auto">

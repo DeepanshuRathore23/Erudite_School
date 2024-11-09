@@ -4,7 +4,14 @@ import './index.css'
 import Layout from './Layout.jsx'
 import Home from './Pages/Home.jsx'
 import About from './Pages/About.jsx'
+import Academics from './Pages/Academics.jsx'
+import Admissions from './Pages/Admissions.jsx'
+import Athletics from './Pages/Athletics.jsx'
+import Contact from './Pages/Contact.jsx'
+import StudentLife from './Pages/StudentLife.jsx'
+
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { Container } from 'postcss'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +25,26 @@ const router = createBrowserRouter([
       {
         path:"about",
         element:<About/>
+      },
+      {
+        path:"academics",
+        element:<Academics/>
+      },
+      {
+        path:"admissions",
+        element:<Admissions/>
+      },
+      {
+        path:"athletics",
+        element:<Athletics/>
+      },
+      {
+        path:"contact",
+        element:<Contact/>
+      },
+      {
+        path:"studentLife",
+        element:<StudentLife/>
       }
     ]
   }
