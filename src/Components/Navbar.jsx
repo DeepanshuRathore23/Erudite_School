@@ -59,7 +59,7 @@ function Navbar() {
                     </div>
 
                     <div className="right ml-auto">
-                        <button className="text-white px-4 py-2 rounded-3xl hover:bg-blue-700 transition-colors duration-300" style={{backgroundColor:"#d59f0f"}}>
+                        <button className="text-white px-4 py-2 rounded-3xl transition-colors duration-300" style={{backgroundColor:"#d59f0f"}}>
                             APPLY NOW
                         </button>
                     </div>
