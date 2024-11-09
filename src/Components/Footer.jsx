@@ -82,9 +82,27 @@ function Footer(){
                         
                     </div>
                     
+                    <div className="map mt-16">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13759.460639916162!2d77.56703404474821!3d30.43769037470503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f23d533dbc55d%3A0x5e7db0ac5b4d117!2sThe%20Erudite%20World%20School!5e0!3m2!1sen!2sin!4v1731124150901!5m2!1sen!2sin" 
+                            width="330" 
+                            height="280" 
+                            style={{border:0}}
+                            allowFullScreen 
+                            loading="lazy" 
+                            referrerPolicy="no-referrer-when-downgrade">
+
+                        </iframe>
+                    </div>
                     
                 </div>
             	
+            </div>
+
+            <div className="copyright h-14 w-full bg-[#383838] flex justify-center text-white align-center items-center">
+                © Copyright 2024 
+                The Erudite World School. All Rights Reserved.
+
             </div>
         </>
     )
