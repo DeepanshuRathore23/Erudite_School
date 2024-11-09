@@ -1,6 +1,7 @@
 import schoolLogo from '../images/school_logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faYoutube} from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 function Footer(){
@@ -44,27 +45,27 @@ function Footer(){
                 <div className="w-1/4 m-2">
                     <div className="line h-px bg-gray-500 mb-4"></div>
                     <i className="about-us mt-4">
-                        <a href="#" className="hover:text-[#d59f0f] transition-colors duration-300">About TEWS</a>
+                        <Link to="/" className="hover:text-[#d59f0f] transition-colors duration-300">About TEWS</Link>
                     </i>
 
                     <div className="line h-px bg-gray-500 mt-4 mb-4"></div>
                     <i className="admissions mt-4">
-                        <a href="#" className="hover:text-[#d59f0f] transition-colors duration-300">Admissions</a>
+                        <Link to="/" className="hover:text-[#d59f0f] transition-colors duration-300">Admissions</Link>
                     </i>
 
                     <div className="line  h-px bg-gray-500 mt-4 mb-4"></div>
                     <i className="academics mt-4">
-                        <a href="#" className="hover:text-[#d59f0f] transition-colors duration-300">Academics</a>
+                        <Link to="/" className="hover:text-[#d59f0f] transition-colors duration-300">Academics</Link>
                     </i>
 
                     <div className="line  h-px bg-gray-500 mt-4 mb-4"></div>
                     <i className="student-life mt-4">
-                        <a href="#" className="hover:text-[#d59f0f] transition-colors duration-300">Student Life</a>
+                        <Link to="/" className="hover:text-[#d59f0f] transition-colors duration-300">Student Life</Link>
                     </i>
 
                     <div className="line  h-px bg-gray-500 mt-4 mb-4"></div>                    
                     <i className="athletics mt-4">
-                        <a href="#" className="hover:text-[#d59f0f] transiti on-colors duration-300">Athletics</a>
+                        <Link to="/" className="hover:text-[#d59f0f] transiti on-colors duration-300">Athletics</Link>
                     </i>
 
                     <div className="line  h-px bg-gray-500 mt-4"></div>

@@ -3,6 +3,8 @@ import academics from '../images/academics.png'
 import atheletics from '../images/atheletics.png'
 import extracurricular from '../images/extracurricular.png'
 import React, { useState, useEffect } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+
 
 function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -38,7 +40,7 @@ function Navbar() {
                 {/* Centered Text */}
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10 ">
                     <h1 className="text-2xl md:text-2xl font-bold">READY TO START YOUR NEXT</h1>
-                    <h1 className='text-6xl md:text-6xl font-bold'>ADVENTURE?</h1>
+                    <h1 className='text-6xl md:text-6xl font-bold text-[#d59f0f]'>ADVENTURE?</h1>
                 </div>
 
 
@@ -50,12 +52,13 @@ function Navbar() {
 
                     {/* Center: Navigation Links with Vertical Separators */}
                     <div className={`center flex space-x-6 ${isScrolled ? 'text-black' : 'text-white'}`}>
-                        <a href="#" className="hover:text-[#d59f0f] transition-colors duration-300">About Us</a>
-                        <a href="#" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Admissions</a>
-                        <a href="#" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Academics</a>
-                        <a href="#" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Student Life</a>
-                        <a href="#" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Athletics</a>
-                        <a href="#" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Contact</a>
+                        <NavLink to="/Erudite_School/" className="hover:text-[#d59f0f] transition-colors duration-300">Home</NavLink>
+                        <NavLink to="/Erudite_School/about" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">About Us</NavLink>
+                        <NavLink to="/" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Admissions</NavLink>
+                        <NavLink to="/" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Academics</NavLink>
+                        <NavLink to="/" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Student Life</NavLink>
+                        <NavLink to="/" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Athletics</NavLink>
+                        <NavLink to="/" className="border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300">Contact</NavLink>
                     </div>
 
                     <div className="right ml-auto">
