@@ -9,9 +9,11 @@ import Admissions from './Pages/Admissions.jsx'
 import Athletics from './Pages/Athletics.jsx'
 import Contact from './Pages/Contact.jsx'
 import StudentLife from './Pages/StudentLife.jsx'
+import Extracurricular from './Pages/Extracurricular.jsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Container } from 'postcss'
+
 
 const router = createBrowserRouter([
   {
@@ -45,6 +47,10 @@ const router = createBrowserRouter([
       {
         path:"studentLife",
         element:<StudentLife/>
+      },
+      {
+        path:"extracurricular",
+        element:<Extracurricular/>
       }
     ]
   }

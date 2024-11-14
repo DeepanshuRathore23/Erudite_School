@@ -1,32 +1,36 @@
-function Future(){
+import React from "react";
+
+function Future() {
     return (
         <>
             <div className="main m-4">
+                {/* Vertical Line */}
                 <div className="line flex justify-center">
-                    <div className="w-1 h-32 bg-[#d59f0f]"></div>
+                    <div className="w-1 h-16 sm:h-32 bg-[#d59f0f]"></div>
                 </div>
 
-                <div className="bright-future mt-20 space-y-3">
-                    <div className="flex justify-center font-bold text-5xl "> YOUR FUTURE IS BRIGHT</div>
-                    <div className="flex justify-center font-bold text-5xl">WITH TEWS</div>
+                {/* Headline */}
+                <div className="bright-future mt-10 sm:mt-20 space-y-2 sm:space-y-3 text-center">
+                    <div className="text-3xl sm:text-5xl font-bold">YOUR FUTURE IS BRIGHT</div>
+                    <div className="text-3xl sm:text-5xl font-bold">WITH TEWS</div>
                 </div>
 
-                <div className="btns flex justify-center space-x-40 mt-10 font-bold">
+                {/* Buttons */}
+                <div className="btns flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-20 mt-6 sm:mt-10 font-bold">
                     <div className="about-us">
-                        <button className="about-us bg-[#d59f0f] text-white px-6 py-1 rounded-full hover:bg-black border-2 hover:border-black border-[#d59f0f] transition-all duration-300 ease-in-out">
+                        <button className="bg-[#d59f0f] text-white px-4 sm:px-6 py-1 rounded-full hover:bg-black border-2 hover:border-black border-[#d59f0f] transition-all duration-300 ease-in-out">
                             ABOUT US
                         </button>
                     </div>
                     <div className="apply">
-                        <button className="apply text-[#d59f0f] px-6 py-1 rounded-full hover:bg-black hover:border-black border-2 border-[#d59f0f] transition-all duration-300 ease-in-out">
+                        <button className="text-[#d59f0f] px-4 sm:px-6 py-1 rounded-full hover:bg-black hover:border-black border-2 border-[#d59f0f] transition-all duration-300 ease-in-out">
                             EXPLORE ACADEMICS
                         </button>
                     </div>
                 </div>
-
             </div>
         </>
-    )
+    );
 }
 
 export default Future;
