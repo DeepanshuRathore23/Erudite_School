@@ -111,9 +111,12 @@ function Navbar() {
                     </div>
 
                     <div className="right ml-auto">
-                        <button className="text-white px-4 py-2 rounded-3xl transition-colors duration-300" style={{backgroundColor:"#d59f0f"}}>
-                            APPLY NOW
-                        </button>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8Lb-Z-6O820DpJcYjkP-bamxUL4wBVwmvHqBGvmhjIbUQsg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
+                            <button className="text-white px-4 py-2 rounded-3xl bg-[#d59f0f] hover:bg-black transition-all duration-300 eas-in-out">
+                                APPLY NOW
+                            </button>
+                        </a>
+                        
                     </div>
 
                     <div className="menu md:hidden ml-6" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -134,22 +137,22 @@ function Navbar() {
                         &times; {/* "X" symbol */}
                     </button>
 
-                    <a href="#" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">About Us</a>
-                    <a href="#" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Admissions</a>
-                    <a href="#" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Academics</a>
-                    <a href="#" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Student Life</a>
-                    <a href="#" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Athletics</a>
-                    <a href="#" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Contact</a>
+                    <Link to="/Erudite_School/about" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">About Us</Link>
+                    <Link to="/Erudite_School/admissions" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Admissions</Link>
+                    <Link to="/Erudite_School/academics" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Academics</Link>
+                    <Link to="/Erudite_School/studentLife" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Student Life</Link>
+                    <Link to="/Erudite_School/athletics" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Athletics</Link>
+                    <Link to="/Erudite_School/contact" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Contact</Link>
                 </div>
             )}
                 
-            {
+            {isHomePage &&
                 <div className="boxes flex flex-wrap justify-between w-full p-1 mt-[78vh] mb-[5vh]">
                 <div className="box1 w-full sm:w-64 h-48 mx-4 sm:mx-0 sm:ml-16 brightness-110 text-3xl pt-7 pl-5 pr-5 font-bold text-white border border-white shadow-xl" style={{ backgroundColor: '#d59f0f' }}>
                     WHERE WILL YOU VENTURE TO?
                 </div>
             
-                <Link to='/EruditeSchool/academics' className="box2 w-full sm:w-64 h-48 bg-white brightness-110 border border-gray-300 shadow-xl hover:border-[#d59f0f] transition-colors duration-300 mx-4 sm:mx-0 mt-4 sm:mt-0">
+                <Link to='/Erudite_School/academics' className="box2 w-full sm:w-64 h-48 bg-white brightness-110 border border-gray-300 shadow-xl hover:border-[#d59f0f] transition-colors duration-300 mx-4 sm:mx-0 mt-4 sm:mt-0">
                     <div className="img flex justify-center">
                         <img src={academics} alt="" className="h-20 w-20 mt-8" />
                     </div>
@@ -158,7 +161,7 @@ function Navbar() {
                     </div>
                 </Link>
             
-                <Link to='/EruditeSchool/athletics' className="box3 w-full sm:w-64 h-48 bg-white brightness-110 border border-gray-300 shadow-xl hover:border-[#d59f0f] transition-colors duration-300 mx-4 sm:mx-0 mt-4 sm:mt-0">
+                <Link to='/Erudite_School/athletics' className="box3 w-full sm:w-64 h-48 bg-white brightness-110 border border-gray-300 shadow-xl hover:border-[#d59f0f] transition-colors duration-300 mx-4 sm:mx-0 mt-4 sm:mt-0">
                     <div className="img flex justify-center">
                         <img src={atheletics} alt="" className="h-20 w-20 mt-8" />
                     </div>
@@ -167,7 +170,7 @@ function Navbar() {
                     </div>
                 </Link>
             
-                <Link to='/EruditeSchool/extracurricular' className="box4 w-full sm:w-64 h-48 bg-white brightness-110 border border-gray-300 shadow-xl hover:border-[#d59f0f] transition-colors duration-300 mx-4 sm:mx-0 mt-4 sm:mt-0 sm:mr-16">
+                <Link to='/Erudite_School/extracurricular' className="box4 w-full sm:w-64 h-48 bg-white brightness-110 border border-gray-300 shadow-xl hover:border-[#d59f0f] transition-colors duration-300 mx-4 sm:mx-0 mt-4 sm:mt-0 sm:mr-16">
                     <div className="img flex justify-center">
                         <img src={extracurricular} alt="" className="h-20 w-20 mt-8" />
                     </div>

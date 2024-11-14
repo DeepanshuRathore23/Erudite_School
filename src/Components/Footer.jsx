@@ -40,15 +40,15 @@ function Footer() {
                 {/* Quick Links Section */}
                 <div className="w-full lg:w-1/4 m-2 text-center lg:text-left">
                     <div className="line h-px bg-gray-500 mb-4"></div>
-                    <Link to="/" className="hover:text-[#d59f0f] transition-colors duration-300 block my-2">About TEWS</Link>
+                    <Link to="/Erudite_School/about" className="hover:text-[#d59f0f] transition-colors duration-300 block my-2">About TEWS</Link>
                     <div className="line h-px bg-gray-500 my-4"></div>
-                    <Link to="/" className="hover:text-[#d59f0f] transition-colors duration-300 block my-2">Admissions</Link>
+                    <Link to="/Erudite_School/admissions" className="hover:text-[#d59f0f] transition-colors duration-300 block my-2">Admissions</Link>
                     <div className="line h-px bg-gray-500 my-4"></div>
-                    <Link to="/" className="hover:text-[#d59f0f] transition-colors duration-300 block my-2">Academics</Link>
+                    <Link to="/Erudite_School/academics" className="hover:text-[#d59f0f] transition-colors duration-300 block my-2">Academics</Link>
                     <div className="line h-px bg-gray-500 my-4"></div>
-                    <Link to="/" className="hover:text-[#d59f0f] transition-colors duration-300 block my-2">Student Life</Link>
+                    <Link to="/Erudite_School/studentLife" className="hover:text-[#d59f0f] transition-colors duration-300 block my-2">Student Life</Link>
                     <div className="line h-px bg-gray-500 my-4"></div>
-                    <Link to="/" className="hover:text-[#d59f0f] transition-colors duration-300 block my-2">Athletics</Link>
+                    <Link to="/Erudite_School/athletics" className="hover:text-[#d59f0f] transition-colors duration-300 block my-2">Athletics</Link>
                     <div className="line h-px bg-gray-500"></div>
                 </div>
 
