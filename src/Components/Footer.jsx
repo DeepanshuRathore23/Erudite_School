@@ -1,4 +1,4 @@
-import schoolLogo from '../images/school_logo.png';
+import schoolLogo from '../images/school_logo_footer.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
