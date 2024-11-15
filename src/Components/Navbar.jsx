@@ -5,6 +5,14 @@ import atheletics from '../images/atheletics.png'
 import extracurricular from '../images/extracurricular.png'
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
+import aboutBack from '../images/aboutBack.jpeg'
+import academicsBack from '../images/academicsBack.jpg'
+import admissionsBack from '../images/admissionsBack.jpeg'
+import extracurricularBack from '../images/extracurricularBack.jpeg'
+import athleticsBack from '../images/athleticsBack.jpeg'
+import StudentLifeBack from '../images/StudentLifeBack.jpeg'
+import contactBack from '../images/contactBack.jpeg'
+
 
 
 function Navbar() {
@@ -12,6 +20,17 @@ function Navbar() {
     const location = useLocation();
     const isHomePage = location.pathname === '/Erudite_School/';
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const backgroundImages = {
+        '/Erudite_School/': backgroundImage,
+        '/Erudite_School/about': backgroundImage,
+        '/Erudite_School/admissions': admissionsBack,
+        '/Erudite_School/academics': academicsBack,
+        '/Erudite_School/studentLife': StudentLifeBack,
+        '/Erudite_School/athletics': athleticsBack,
+        '/Erudite_School/contact': contactBack,
+        '/Erudite_School/extracurricular': extracurricularBack,
+    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -40,7 +59,7 @@ function Navbar() {
                     </video>
                 ) : (
                     <img
-                        src={backgroundImage}
+                        src={backgroundImages[location.pathname]}
                         alt="background"
                         className="absolute top-0 left-0 w-full h-[85vh] object-cover -z-10"
                     />
