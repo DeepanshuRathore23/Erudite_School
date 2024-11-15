@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import WelcomeStudent from '../images/welcome_student.png';
+import { Link } from 'react-router-dom';
 
 function Welcome() {
     const [scrolled, setScrolled] = useState(false);
@@ -57,12 +58,21 @@ function Welcome() {
 
                             {/* Buttons */}
                             <div className="btns flex justify-center lg:justify-start space-x-6 mt-5 font-bold">
-                                <button className="about-us bg-[#d59f0f] text-white px-6 py-2 rounded-full hover:bg-black border-2 hover:border-black border-[#d59f0f] transition-all duration-300 ease-in-out">
-                                    ABOUT US
-                                </button>
-                                <button className="apply text-[#d59f0f] px-6 py-2 rounded-full hover:bg-black hover:border-black border-2 border-[#d59f0f] transition-all duration-300 ease-in-out">
-                                    APPLY TO TEWS
-                                </button>
+                                <Link to="/Erudite_School/about">
+                                    <button className="about-us bg-[#d59f0f] text-white px-6 py-2 rounded-full hover:bg-black border-2 hover:border-black border-[#d59f0f] transition-all duration-300 ease-in-out">
+                                        ABOUT US
+                                    </button>
+                                </Link>
+
+                                <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8Lb-Z-6O820DpJcYjkP-bamxUL4wBVwmvHqBGvmhjIbUQsg/viewform" target='_blank'>
+                                    <button className="apply text-[#d59f0f] px-6 py-2 rounded-full hover:bg-black hover:border-black border-2 border-[#d59f0f] transition-all duration-300 ease-in-out">
+                                        APPLY TO TEWS
+                                    </button>
+                                </a>
+                                
+                                
                             </div>
                         </div>
                     </div>
