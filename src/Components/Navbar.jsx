@@ -1,4 +1,4 @@
-import logo from '../images/school_logo_nav.png';
+import logo from '../images/school_logo.png';
 import backgroundImage from '../images/school.jpeg'
 import academics from '../images/academics.png'
 import atheletics from '../images/atheletics.png'
