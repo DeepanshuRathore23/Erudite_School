@@ -10,7 +10,7 @@ import academicsBack from '../images/academicsBack.jpg'
 import admissionsBack from '../images/admissionsBack.jpeg'
 import extracurricularBack from '../images/extracurricularBack.jpeg'
 import athleticsBack from '../images/athleticsBack.jpeg'
-import StudentLifeBack from '../images/StudentLifeBack.jpeg'
+import StudentLifeBack from '../images/studentLifeBack.jpeg'
 import contactBack from '../images/contactBack.jpeg'
 
 
