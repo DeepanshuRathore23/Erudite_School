@@ -12,7 +12,6 @@ import StudentLife from './Pages/StudentLife.jsx'
 import Extracurricular from './Pages/Extracurricular.jsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Container } from 'postcss'
 
 
 const router = createBrowserRouter([
@@ -54,12 +53,14 @@ const router = createBrowserRouter([
       }
     ]
   }
-]
+],
   
 )
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider
+      router={router}
+      future={{v7_startTransition: true, v7_relativeSplatPath: true}}/>
   </StrictMode>,
 )
