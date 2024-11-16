@@ -18,18 +18,18 @@ import contactBack from '../images/contactBack.jpeg'
 function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
     const location = useLocation();
-    const isHomePage = location.pathname === '/Erudite_School/';
+    const isHomePage = location.pathname === '/';
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const backgroundImages = {
-        '/Erudite_School/': backgroundImage,
-        '/Erudite_School/about': backgroundImage,
-        '/Erudite_School/admissions': admissionsBack,
-        '/Erudite_School/academics': academicsBack,
-        '/Erudite_School/studentLife': StudentLifeBack,
-        '/Erudite_School/athletics': athleticsBack,
-        '/Erudite_School/contact': contactBack,
-        '/Erudite_School/extracurricular': extracurricularBack,
+        '/': backgroundImage,
+        '/about': backgroundImage,
+        '/admissions': admissionsBack,
+        '/academics': academicsBack,
+        '/studentLife': StudentLifeBack,
+        '/athletics': athleticsBack,
+        '/contact': contactBack,
+        '/extracurricular': extracurricularBack,
     };
 
     useEffect(() => {
@@ -86,44 +86,44 @@ function Navbar() {
                     {/* Center: Navigation Links with Vertical Separators */}
                     <div className={`hidden md:block center flex space-x-6 ${isScrolled ? 'text-black' : 'text-white'}`}>
                         <NavLink
-                            to="/Erudite_School/"
+                            to="/"
                             end
                             className={({isActive}) => `hover:text-[#d59f0f] transition-colors duration-300 ${isActive ? 'text-[#d59f0f]' : ''}`}>
                                 Home
                         </NavLink>
 
                         <NavLink 
-                            to="/Erudite_School/about" 
+                            to="/about" 
                             className={({isActive}) => `border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300 ${isActive ? 'text-[#d59f0f]' : ''}`}>
                                 About Us
                         </NavLink>
 
                         <NavLink 
-                            to="/Erudite_School/admissions" 
+                            to="/admissions" 
                             className={({isActive}) => `border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300 ${isActive ? 'text-[#d59f0f]' : ''}`}>
                                 Admissions
                         </NavLink>
 
                         <NavLink 
-                            to="/Erudite_School/academics" 
+                            to="/academics" 
                             className={({isActive}) => `border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300 ${isActive ? 'text-[#d59f0f]' : ''}`}>
                                 Academics
                         </NavLink>
 
                         <NavLink 
-                            to="/Erudite_School/studentLife" 
+                            to="/studentLife" 
                             className={({isActive}) => `border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300 ${isActive ? 'text-[#d59f0f]' : ''}`}>
                                 Student Life
                         </NavLink>
 
                         <NavLink 
-                            to="/Erudite_School/athletics" 
+                            to="/athletics" 
                             className={({isActive}) => `border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300 ${isActive ? 'text-[#d59f0f]' : ''}`}>
                                 Athletics
                         </NavLink>
 
                         <NavLink 
-                            to="/Erudite_School/contact" 
+                            to="/contact" 
                             className={({isActive}) => `border-l border-[#d59f0f] pl-2 hover:text-[#d59f0f] transition-colors duration-300 ${isActive ? 'text-[#d59f0f]' : ''}`}>
                                 Contact
                         </NavLink>
@@ -156,12 +156,12 @@ function Navbar() {
                         &times; {/* "X" symbol */}
                     </button>
 
-                    <Link to="/Erudite_School/about" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">About Us</Link>
-                    <Link to="/Erudite_School/admissions" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Admissions</Link>
-                    <Link to="/Erudite_School/academics" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Academics</Link>
-                    <Link to="/Erudite_School/studentLife" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Student Life</Link>
-                    <Link to="/Erudite_School/athletics" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Athletics</Link>
-                    <Link to="/Erudite_School/contact" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Contact</Link>
+                    <Link to="/about" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">About Us</Link>
+                    <Link to="/admissions" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Admissions</Link>
+                    <Link to="/academics" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Academics</Link>
+                    <Link to="/studentLife" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Student Life</Link>
+                    <Link to="/athletics" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Athletics</Link>
+                    <Link to="/contact" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Contact</Link>
                 </div>
             )}
                 
@@ -171,7 +171,7 @@ function Navbar() {
                     WHERE WILL YOU VENTURE TO?
                 </div>
             
-                <Link to='/Erudite_School/academics' className="box2 w-full sm:w-64 h-48 bg-white brightness-110 border border-gray-300 shadow-xl hover:border-[#d59f0f] transition-colors duration-300 mx-4 sm:mx-0 mt-4 sm:mt-0">
+                <Link to='/academics' className="box2 w-full sm:w-64 h-48 bg-white brightness-110 border border-gray-300 shadow-xl hover:border-[#d59f0f] transition-colors duration-300 mx-4 sm:mx-0 mt-4 sm:mt-0">
                     <div className="img flex justify-center">
                         <img src={academics} alt="" className="h-20 w-20 mt-8" />
                     </div>
@@ -180,7 +180,7 @@ function Navbar() {
                     </div>
                 </Link>
             
-                <Link to='/Erudite_School/athletics' className="box3 w-full sm:w-64 h-48 bg-white brightness-110 border border-gray-300 shadow-xl hover:border-[#d59f0f] transition-colors duration-300 mx-4 sm:mx-0 mt-4 sm:mt-0">
+                <Link to='/athletics' className="box3 w-full sm:w-64 h-48 bg-white brightness-110 border border-gray-300 shadow-xl hover:border-[#d59f0f] transition-colors duration-300 mx-4 sm:mx-0 mt-4 sm:mt-0">
                     <div className="img flex justify-center">
                         <img src={atheletics} alt="" className="h-20 w-20 mt-8" />
                     </div>
@@ -189,7 +189,7 @@ function Navbar() {
                     </div>
                 </Link>
             
-                <Link to='/Erudite_School/extracurricular' className="box4 w-full sm:w-64 h-48 bg-white brightness-110 border border-gray-300 shadow-xl hover:border-[#d59f0f] transition-colors duration-300 mx-4 sm:mx-0 mt-4 sm:mt-0 sm:mr-16">
+                <Link to='/extracurricular' className="box4 w-full sm:w-64 h-48 bg-white brightness-110 border border-gray-300 shadow-xl hover:border-[#d59f0f] transition-colors duration-300 mx-4 sm:mx-0 mt-4 sm:mt-0 sm:mr-16">
                     <div className="img flex justify-center">
                         <img src={extracurricular} alt="" className="h-20 w-20 mt-8" />
                     </div>
