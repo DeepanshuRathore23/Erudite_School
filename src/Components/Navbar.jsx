@@ -155,7 +155,7 @@ function Navbar() {
                     >
                         &times; {/* "X" symbol */}
                     </button>
-
+                    <Link to="/" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Home</Link>
                     <Link to="/about" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">About Us</Link>
                     <Link to="/admissions" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Admissions</Link>
                     <Link to="/academics" className="w-full text-center py-4 border-b border-gray-300 hover:text-[#d59f0f]">Academics</Link>

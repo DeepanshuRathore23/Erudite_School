@@ -10,9 +10,7 @@ import Athletics from './Pages/Athletics.jsx'
 import Contact from './Pages/Contact.jsx'
 import StudentLife from './Pages/StudentLife.jsx'
 import Extracurricular from './Pages/Extracurricular.jsx'
-
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-
 
 const router = createBrowserRouter([
   {
