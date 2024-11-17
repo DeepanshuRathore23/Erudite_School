@@ -28,10 +28,19 @@ export default function Athletics() {
                         <li>Volleyball</li>
                         <li>Track and Field</li>
                         <li>Tennis</li>
+                        <li>Badminton</li>
+                        <li>Chess</li>
+                        
+                    </ul>
+                </section>
+
+                <section className="mb-8">
+                    <h2 className="text-2xl font-semibold text-gray-700 mb-2">Upcoming</h2>
+                    
+                    <ul className="list-disc list-inside text-gray-600 mt-4">
+                        <li>Horse Riding</li>
                         <li>Swimming</li>
-                        <li>Cross-Country</li>
                         <li>Baseball</li>
-                        <li>Cheerleading</li>
                     </ul>
                 </section>
 

@@ -9,7 +9,7 @@ export default function Admissions() {
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-700 mb-2">Welcome to Our Admissions Office</h2>
                     <p className="text-gray-600">
-                        We're excited to welcome new students to Erudite School! Here, you’ll find all the details 
+                        We're excited to welcome new students to The Erudite World School! Here, you’ll find all the details 
                         about our admissions process, important dates, and how to apply.
                     </p>
                 </section>
