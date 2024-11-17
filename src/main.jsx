@@ -48,6 +48,10 @@ const router = createBrowserRouter([
       {
         path:"extracurricular",
         element:<Extracurricular/>
+      },
+      {
+        path:"*",
+        element:<Home/>
       }
     ]
   }
