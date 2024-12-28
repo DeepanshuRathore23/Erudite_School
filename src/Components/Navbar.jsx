@@ -7,11 +7,12 @@ import React, { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import aboutBack from '../images/aboutBack.jpeg'
 import academicsBack from '../images/academicsBack.jpg'
-import admissionsBack from '../images/admissionsBack.jpeg'
+import admissionsBack from '../images/admissionsBack.jpg'
 import extracurricularBack from '../images/extracurricularBack.jpeg'
-import athleticsBack from '../images/athleticsBack.jpeg'
-import StudentLifeBack from '../images/studentLifeBack.jpeg'
+import athleticsBack from '../images/athleticsBack.jpg'
+import StudentLifeBack from '../images/studentLifeBack.jpg'
 import contactBack from '../images/contactBack.jpeg'
+import newAboutBack from '../images/newAboutBack.jpg'
 
 
 
@@ -23,7 +24,7 @@ function Navbar() {
 
     const backgroundImages = {
         '/': backgroundImage,
-        '/about': backgroundImage,
+        '/about': newAboutBack,
         '/admissions': admissionsBack,
         '/academics': academicsBack,
         '/studentLife': StudentLifeBack,
@@ -48,15 +49,14 @@ function Navbar() {
             <div className="flex">
                 {/* Video Background */}
                 {isHomePage ? (
-                    <video 
-                        autoPlay 
-                        loop 
-                        muted 
-                        className="absolute top-0 left-0 w-full h-[85vh] object-cover -z-10"
-                    >
-                        <source src="https://www.bishopfoley.org/files/galleries/Sequence_01.webm" type="video/webm" />
-                        Your browser does not support the video tag.
-                    </video>
+                    <iframe
+                    src="https://www.youtube.com/embed/-GvwKzdAGg8?autoplay=1&loop=1&mute=1&vq=hd1080"
+                    className="absolute top-0 left-0 w-full h-[85vh] object-cover -z-10"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen"
+                />
+
+                    
                 ) : (
                     <img
                         src={backgroundImages[location.pathname]}
