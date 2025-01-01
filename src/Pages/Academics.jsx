@@ -10,7 +10,7 @@ export default function Academics() {
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-700 mb-2">Our Academic Philosophy</h2>
                     <p className="text-gray-600">
-                        At Erudite School, we believe in nurturing curiosity, critical thinking, and lifelong learning.
+                        At The Erudite World School, we believe in nurturing curiosity, critical thinking, and lifelong learning.
                         Our curriculum is designed to provide students with a solid foundation of knowledge, skills, and values 
                         that empower them to succeed in an ever-changing world.
                     </p>

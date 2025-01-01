@@ -8,7 +8,7 @@ export default function About(){
                     </div>
 
                     <div className="breif mt-5">
-                        At The Erudite Wold School, students receive so much more than an ordinary education. We pride ourselves on creating a unique, exciting environment that embraces all types of learners and promotes growth both academically and personally. Students and families are also welcomed into a dynamic and supportive community. 
+                        At The Erudite World School, students receive so much more than an ordinary education. We pride ourselves on creating a unique, exciting environment that embraces all types of learners and promotes growth both academically and personally. Students and families are also welcomed into a dynamic and supportive community. 
                     </div>
                 </div>
 

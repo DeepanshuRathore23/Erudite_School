@@ -33,6 +33,10 @@ export default function Contact() {
                             <p className="text-gray-600">EruditeWS.20@gmail.com</p>
                         </div>
                         <div className="flex items-center space-x-2">
+                            <span className="text-xl text-gray-700">📧</span>
+                            <p className="text-gray-600">eruditeworldschool@gmail.com</p>
+                        </div>
+                        <div className="flex items-center space-x-2">
                             <span className="text-xl text-gray-700">⏰</span>
                             <p className="text-gray-600">Monday - Saturday: 9:00 AM - 5:00 PM</p>
                         </div>

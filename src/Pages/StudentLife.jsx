@@ -10,7 +10,7 @@ export default function StudentLife() {
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-700 mb-2">A Vibrant Campus Experience</h2>
                     <p className="text-gray-600">
-                        At Erudite School, we believe in fostering a well-rounded student experience that goes beyond academics. 
+                        At The Erudite World School, we believe in fostering a well-rounded student experience that goes beyond academics. 
                         Our students are encouraged to explore their passions, build lifelong friendships, and engage in a variety of enriching activities.
                     </p>
                 </section>

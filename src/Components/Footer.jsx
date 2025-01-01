@@ -33,6 +33,8 @@ function Footer() {
                     <div className="mail mt-4">
                         <span>Email: </span>
                         <a href="mailto:EruditeWS.20@gmail.com" className="hover:text-[#d59f0f]">EruditeWS.20@gmail.com</a>
+                        <div></div>
+                        <a href="mailto:EruditeWS.20@gmail.com" className="hover:text-[#d59f0f]">eruditeworldschool@gmail.com</a>
                     </div>
                     <div className="line h-px bg-gray-500 mt-6"></div>
                 </div>

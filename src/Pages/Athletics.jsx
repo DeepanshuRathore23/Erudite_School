@@ -10,7 +10,7 @@ export default function Athletics() {
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-700 mb-2">Our Athletic Philosophy</h2>
                     <p className="text-gray-600">
-                        At Erudite School, we believe in the power of sports to foster teamwork, discipline, and leadership.
+                        At The Erudite World School, we believe in the power of sports to foster teamwork, discipline, and leadership.
                         Our athletic programs are designed to provide students with opportunities to excel physically,
                         develop valuable life skills, and represent the school in a positive light.
                     </p>
